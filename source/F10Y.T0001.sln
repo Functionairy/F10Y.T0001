@@ -5,7 +5,14 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F10Y.T0001", "F10Y.T0001\F10Y.T0001.csproj", "{9B8F388D-F630-426B-8831-E3AF52040812}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{7823A6E6-1F89-4E88-AA15-2E899DB2A64A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F10Y.T0000", "..\..\F10Y.T0000\source\F10Y.T0000\F10Y.T0000.csproj", "{890DD5CC-4C13-415A-9F8C-FAA9D7A3FBB1}"
+EndProject
 Global
+	GlobalSection(NestedProjects) = preSolution
+		{890DD5CC-4C13-415A-9F8C-FAA9D7A3FBB1} = {7823A6E6-1F89-4E88-AA15-2E899DB2A64A}
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -15,6 +22,10 @@ Global
 		{9B8F388D-F630-426B-8831-E3AF52040812}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B8F388D-F630-426B-8831-E3AF52040812}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B8F388D-F630-426B-8831-E3AF52040812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890DD5CC-4C13-415A-9F8C-FAA9D7A3FBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890DD5CC-4C13-415A-9F8C-FAA9D7A3FBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890DD5CC-4C13-415A-9F8C-FAA9D7A3FBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890DD5CC-4C13-415A-9F8C-FAA9D7A3FBB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
