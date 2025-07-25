@@ -13,8 +13,8 @@ namespace F10Y.T0001
     /// </remarks>
     [AttributeUsage(
         AttributeTargets.Class, // Documentations should be in a static class (and nested static classes), so demand a class.
-        AllowMultiple = false, // A type either is or is not a documentations class. No need for multiple attributes.
-        Inherited = false // While attributes CAN be inherited, generally they are not. So force users to re-mark any inherited attribute types.
+        AllowMultiple = false, // A type is either a documentation class, or it is not. No need for multiple attributes.
+        Inherited = false // While documentation classes can be inherited, generally they are not. So force users to re-mark any inherited attribute types.
     )]
     [MarkerAttributeMarker]
     public class DocumentationsMarkerAttribute : Attribute
